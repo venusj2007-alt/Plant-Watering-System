@@ -48,6 +48,8 @@ The final system was assembled as a functional prototype using a breadboard and 
   &nbsp;&nbsp;
   <img src="photo_2026-08-10_18-54-18.jpg" width="350">
 </p>
+
+
 ## Documentation
 [Software Design Document](Software%20Design%20Document.pdf)
 This pdf file is a detailed documentation of the system architecture, software design, finite state machine, and implementation details.
