@@ -37,11 +37,11 @@ The system provides two watering modes: **Moisture Mode** and **Timer Mode**. In
 The system also estimates the remaining amount in the water tank based on the pump's operation and tank capacity. A low-water warning is provided when the estimated remaining water falls below 250mL. User settings such as the operating mode, moisture threshold, watering interval, pump duration, and tank capacity are stored in EEPROM so that the configured values can be retained after the system is powered off. The software uses a finite state machine and non-blocking timing to allow the system to respond to user input and monitor its conditions while operating the pump.
 
 ## Circuit Schematic 
-[Circuit Schematic](Screenshot%202026-08-05%20150115.png)
+![Circuit Schematic](Screenshot%202026-08-05%20150115.png)
 This is the design of the system, developed around an Arduino Nano microcontroller. We used a potentiometer to represent the moisture sensor input and a DC motor to simulate the water pump. A relay is used as a switching interface to safely control the pump motor without directly driving it from the microcontroller.
 ## Physical Prototype 
-[Physical Prototype Picture1](photo_2026-08-10_18-54-18.jpg)
-[Physical Prototype Picture2](photo_2026-08-10_18-54-23.jpg)
+![Physical Prototype Picture1](photo_2026-08-10_18-54-18.jpg)
+![Physical Prototype Picture2](photo_2026-08-10_18-54-23.jpg)
 The final system was assembled as a functional prototype using a breadboard and jumper wires.
 ## Documentation
 [Software Design Document](Software%20Design%20Document.pdf)
