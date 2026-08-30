@@ -17,3 +17,6 @@ Displays system information, settings, and status messages through a 16×2 LCD.
 Provides a 4×4 keypad for navigating the menu and configuring system parameters.
 ### Low-water warning
 Monitors the estimated remaining water and warns the user when the tank level becomes too low to safely operate the pump.
+## Documentation
+[Software Design Document](Software%20Design%20Document.pdf)
+This pdf file is a detailed documentation of the system architecture, software design, finite state machine, and implementation details.
