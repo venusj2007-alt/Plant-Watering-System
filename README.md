@@ -41,8 +41,8 @@ The system also estimates the remaining amount in the water tank based on the pu
 This is the design of the system, developed around an Arduino Nano microcontroller. We used a potentiometer to represent the moisture sensor input and a DC motor to simulate the water pump. A relay is used as a switching interface to safely control the pump motor without directly driving it from the microcontroller.
 ## Physical Prototype 
 The final system was assembled as a functional prototype using a breadboard and jumper wires.
-<img src="photo_2026-08-10_18-54-23.jpg" width="600">
-<img src="photo_2026-08-10_18-54-18.jpg" width="600">
+<img src="photo_2026-08-10_18-54-23.jpg" width="300">
+<img src="photo_2026-08-10_18-54-18.jpg" width="300">
 ## Documentation
 [Software Design Document](Software%20Design%20Document.pdf)
 This pdf file is a detailed documentation of the system architecture, software design, finite state machine, and implementation details.
