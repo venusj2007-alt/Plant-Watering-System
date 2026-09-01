@@ -27,7 +27,7 @@ Monitors the estimated remaining water and warns the user when the tank level be
 - **Indicators:** LEDs
 - **Power:** External Power Supply
 ## Software
-**Programming Language:** C++
+- **Programming Language:** C++
 - **Development Environment:** PlatformIO
 - **Simulation:** Proteus 
 - **Data Storage:** EEPROM
